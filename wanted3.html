@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Page</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="icon" href="C:\Users\jibre\OneDrive\Desktop\Project\Grabzy\Asset\Web Icon.png">
+</head>
+<body>
+    <div id="header">
+        <img id="icon" src="C:\Users\jibre\OneDrive\Desktop\Project\Grabzy\Asset\Web Icon.png" alt="">
+        <h1 id="head">Grabzy</h1>
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="collection.html"><li>collections</li></a>
+            <a href="contact.html"><li>Contact</li></a>
+        </ul>
+    </div>
+    
+    <h1 id="heading">Order Page</h1>
+    <div id="arrival1">
+      <img id="arrival-img1" src="C:\Users\jibre\OneDrive\Desktop\Project\Grabzy\Asset\dress2.jpg" alt=""><br>
+      <h3>Price:888$</h3>
+      <h4>Delivery Address</h4>
+      <input id="input-address" type="text" placeholder="Enter Your Address" required>
+      <h4>Payment Method</h4>
+      <select id="payment-method">
+        <option value="">UPI via</option>
+        <option value="">Cash on Delivery</option>
+        <option value="">Debit Card</option>
+        <option value="">Credit Card</option>
+      </select>
+      <button id="order-button" onclick="change(event)">Place Order</button>
+    </div>
+    </div>
+
+        <div id="footer">
+        <h2 id="footer-text">Grabzy</h2>
+        <p id="footer-para1">Elevate your style with us—dresses for every occasion. | Privacy Policy | Terms of Service | Contact Us</p>
+        <p id="footer-para2">© 2025 Grabzy Designed by Muhammath Jibreel</p>
+    </div>
+</body>
+</html>
+
+<script>
+    function change(event){
+    alert("Your order placed");
+}
+</script>

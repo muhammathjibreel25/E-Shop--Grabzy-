@@ -1,0 +1,95 @@
+ * {
+    margin: 0;
+}
+
+#header {
+    padding: 20px;
+    background-color: #44a5ac;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#icon {
+    width: 30px;
+    height: 30px;
+}
+
+#head {
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    padding: 5px;
+}
+#heading{
+    text-align: center;
+    color: black;
+    margin: 30px;
+    bottom: 0;
+}
+#arrival1{
+    text-align: center;
+    position: relative;
+    border: solid 2px black;
+    width: 300px;
+    margin-left: 600px;
+    padding: 15px;
+    background-color: #44a5ac;
+    border-radius: 15px;
+}
+#arrival-img1{
+    width: 200px;
+    height: auto;
+    border: #44a5ac 2px solid;
+    border-radius: 15px;
+}
+#input-address,#payment-method{
+    width: 300px;
+    background-color: white;
+    color: #000;
+    padding: 5px;
+    border: none;
+}
+#order-button{
+  bottom: 15px;
+  left: 50%;
+  background-color:white;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+  margin-top: 10px;
+}
+
+#order-button:hover{
+    background-color: #000;
+    color: #44a5ac;
+    opacity: 1;
+    transition: 0.3s ease;
+}
+#footer{
+    background-color: #44a5ac;
+    color: #000;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin-top: 30px;
+}
+#footer-text,#footer-para1,#footer-para2{
+    padding: 8px;
+}
+#footer-text{
+    font-weight: bolder;
+}

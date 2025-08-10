@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grabzy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="C:\Users\jibre\OneDrive\Desktop\Project\Grabzy\Asset\Web Icon.png">
+</head>
+<body>
+    <div id="header">
+        <img id="icon" src="C:\Users\jibre\OneDrive\Desktop\Project\Grabzy\Asset\Web Icon.png" alt="">
+        <h1 id="head">Grabzy</h1>
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="collection.html"><li>collections</li></a>
+            <a href="contact.html"><li>Contact</li></a>
+        </ul>
+    </div>
+
+    <div id="contact-details">
+        <div id="details">
+            <h3>Name</h3>
+            <input id="name-input" type="text" required>
+            <h3>Email</h3>
+            <input id="email-input" type="email" required>
+            <h3>Message</h3>
+            <input id="message-input" type="text" required><br>
+            <button id="send-button" onclick="message()">Send</button>
+        </div>
+    </div>
+
+    <div id="footer" style="margin-bottom: 0px;">
+        <h2 id="footer-text">Grabzy</h2>
+        <p id="footer-para1">Elevate your style with us—dresses for every occasion. | Privacy Policy | Terms of Service | Contact Us</p>
+        <p id="footer-para2">© 2025 Grabzy Designed by Muhammath Jibreel</p>
+    </div>
+</body>
+</html>
+
+<style>
+    #contact-details{
+        border-radius: 15px;
+        border: 2px black solid;
+        background-color: #44a5ac;
+        width: 500px;
+        height: auto;
+        justify-content: space-between;
+        margin-left: 500px;
+        text-align: center;
+        padding: 20px;
+        font-weight: bold;
+        font-family: Arial, sans-serif;
+        margin-bottom: 10%;
+        margin-top: 30px;
+    }
+
+    #name-input,#email-input,#message-input{
+        width: 300px;
+        padding: 8px;
+    }
+
+    #message-input{
+        height: 100px;
+    }
+    #send-button{
+        bottom: 15px;
+        left: 50%;
+        background-color:white;
+        color: black;
+        padding: 10px 20px;
+        border-radius: 15px;
+        font-weight: bold;
+        font-family: Arial, sans-serif;
+        border: none;
+        cursor: pointer;
+        opacity: 0.9;
+        margin-top: 10px;
+    }
+
+    #send-button:hover{
+    background-color: #000;
+    color: #44a5ac;
+    opacity: 1;
+    transition: 0.3s ease;
+}
+</style>
+
+<script>
+    function message(){
+    alert("Your message sended")
+}
+</script>
